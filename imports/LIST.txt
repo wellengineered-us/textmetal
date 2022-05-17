@@ -1,0 +1,9 @@
+------------------------------------------------------------------------------------------------------
+| OPEN SOURCE IMPORTS
+| last updated: 2020-10-17
+------------------------------------------------------------------------------------------------------
+
+[Jint]
+jint-2.11.10.zip
+https://github.com/sebastienros/jint/commit/340f0f4ffc2f2b389ebac0d9a4da318f248f20b6
+https://github.com/sebastienros/jint

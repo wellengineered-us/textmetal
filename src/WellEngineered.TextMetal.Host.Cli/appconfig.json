@@ -1,0 +1,15 @@
+﻿{
+	"TargetEngineVersion": "0.1.0",
+	"ConfigurationVersion": "1.0.0",
+
+	"StrictMatching": true,
+
+	"__HostFactoryAqtn": null,
+	"HostAqtn": "WellEngineered.TextMetal.Hosting.Tool.TextMetalToolHost, WellEngineered.TextMetal.Hosting.Tool",
+	"__ContextFactoryAqtn": null,
+	"ContextAqtn": "WellEngineered.TextMetal.Hosting.Tool.TextMetalToolContext, WellEngineered.TextMetal.Hosting.Tool",
+	
+	"TemplateFactoryAqtn": "WellEngineered.TextMetal.Hosting.Tool.TextMetalToolTemplateFactory, WellEngineered.TextMetal.Hosting.Tool",
+	"ModelFactoryAqtn": "WellEngineered.TextMetal.Hosting.Tool.TextMetalToolModelFactory, WellEngineered.TextMetal.Hosting.Tool",
+	"OutputFactoryAqtn": "WellEngineered.TextMetal.Hosting.Tool.TextMetalToolOutputFactory, WellEngineered.TextMetal.Hosting.Tool"
+}

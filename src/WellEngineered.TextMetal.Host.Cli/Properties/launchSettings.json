@@ -1,0 +1,14 @@
+{
+	"profiles":
+	{
+		"default":
+		{
+			"commandName": "Project",
+			"commandLineArgs": "-property:\"A=1\" -property:B=2 -property:C=3",
+			"environmentVariables":
+			{
+				"SOLDER_HOOK_UNHANDLED_EXCEPTIONS": "false"
+			}
+		}
+	}
+}

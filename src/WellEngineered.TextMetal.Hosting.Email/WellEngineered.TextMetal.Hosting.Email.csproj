@@ -1,0 +1,22 @@
+<!--
+	Copyright ©2020-2021 WellEngineered.us, all rights reserved.
+	Distributed under the MIT license: http://www.opensource.org/licenses/mit-license.php
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+	</PropertyGroup>
+
+	<Import Project="..\common.props" />
+
+	<ItemGroup>
+	  <ProjectReference Include="..\WellEngineered.TextMetal.Context\WellEngineered.TextMetal.Context.csproj" />
+	  <ProjectReference Include="..\WellEngineered.TextMetal.Hosting\WellEngineered.TextMetal.Hosting.csproj" />
+	  <ProjectReference Include="..\WellEngineered.TextMetal.Template\WellEngineered.TextMetal.Template.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="WellEngineered.Solder.Serialization" Version="$(WeSolderPackageVersion)" />
+	</ItemGroup>
+
+</Project>

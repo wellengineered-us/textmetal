@@ -1,0 +1,53 @@
+<!--
+	Copyright ©2020-2021 WellEngineered.us, all rights reserved.
+	Distributed under the MIT license: http://www.opensource.org/licenses/mit-license.php
+-->
+<Project>
+	<PropertyGroup>
+		<LangVersion>latest</LangVersion>
+		<DebugType>portable</DebugType>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>..\TextMetal.snk</AssemblyOriginatorKeyFile>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<WeSolderPackageVersion>0.9.0</WeSolderPackageVersion>
+		<WeSiobhanPackageVersion>0.9.0</WeSiobhanPackageVersion>
+		<WeNinnelPackageVersion>0.9.0</WeNinnelPackageVersion>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Configuration>debug</Configuration>
+		<Company>WellEngineered.us</Company>
+		<Product>WellEngineered :: TextMetal</Product>
+		<Copyright>Copyright ©2020-2021 WellEngineered.us, all rights reserved.</Copyright>
+		<Description>$(MSBuildProjectName)</Description>
+
+		<VersionPrefix>0.9.0</VersionPrefix>
+		<VersionSuffix></VersionSuffix>
+		<!--<Version></Version>
+		<AssemblyVersion></AssemblyVersion>	
+		<FileVersion></FileVersion>-->
+
+		<AssemblyTitle>$(MSBuildProjectName) -- $(TargetFramework)</AssemblyTitle>
+
+
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>$(MSBuildProjectName)</PackageId>
+		<Authors>WellEngineered.us</Authors>
+		<PackageTags>TextMetal</PackageTags>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<PackageIcon></PackageIcon>
+		<PackageProjectUrl>http://www.wellengineered-us/projects/textmetal</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<!--<PackageLicenseFile></PackageLicenseFile>-->
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/wellengineered-us/textmetal</RepositoryUrl>
+		<NeutralLanguage>en-US</NeutralLanguage>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\TextMetal.snk" Link="TextMetal.snk" />
+		<None Include="..\..\LICENSE" Link="License.txt" />
+	</ItemGroup>
+</Project>
