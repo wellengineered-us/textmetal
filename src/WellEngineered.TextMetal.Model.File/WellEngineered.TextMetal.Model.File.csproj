@@ -14,7 +14,7 @@
 		<PackageReference Include="WellEngineered.Solder.Serialization" Version="$(WeSolderPackageVersion)" />
 		<PackageReference Include="WellEngineered.Solder.Serialization.JsonNet" Version="$(WeSolderPackageVersion)" />
 		<PackageReference Include="WellEngineered.Solder.Serialization.Xyzl" Version="$(WeSolderPackageVersion)" />
-		<PackageReference Include="Microsoft.CSharp" Version="4.0.1" />
+		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
 		<PackageReference Include="WellEngineered.Solder.Tokenization" Version="$(WeSolderPackageVersion)" />
 	</ItemGroup>
 

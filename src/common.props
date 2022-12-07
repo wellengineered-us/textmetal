@@ -8,6 +8,7 @@
 		<DebugType>portable</DebugType>
 		<SignAssembly>true</SignAssembly>
 		<AssemblyOriginatorKeyFile>..\TextMetal.snk</AssemblyOriginatorKeyFile>
+		<DefineConstants>ASYNC_ALL_THE_WAY_DOWN;zzzASYNC_MAIN_ENTRY_POINT</DefineConstants>
 	</PropertyGroup>
 
 	<PropertyGroup>
@@ -47,6 +48,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<Compile Include="..\Common.cs" Link="Common.cs" />
 		<None Include="..\TextMetal.snk" Link="TextMetal.snk" />
 		<None Include="..\..\LICENSE" Link="License.txt" />
 	</ItemGroup>
